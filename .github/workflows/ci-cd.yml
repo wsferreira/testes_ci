@@ -2,12 +2,12 @@ name: CI / CD Pipeline
 
 on:
   push:
-   branches:
+    branches:
     - main
 
 jobs:
-  build - and - test:
-    runs- on: ubuntu - latest
+  build-and-test:
+    runs-on: ubuntu - latest
 
     steps:
     - name: Checkout code
